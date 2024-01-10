@@ -1,19 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
+  --principal-theme: #6CCFE4;
+  --principal2-theme: #37A6BE;
+  --principal-font: #144287;
+  --secondary-font: #000000;
+  --constrast-theme: #C4C4C4;
+  
+  font-family: 'Rancho', cursive;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: var(--principal-font);
+  background: linear-gradient(var(--principal-theme), var(--principal2-theme));
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -65,4 +70,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
